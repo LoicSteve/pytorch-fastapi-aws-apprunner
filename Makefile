@@ -16,4 +16,12 @@ container-lint:
 
 refactor: format lint
 
+build:
+	docker build -t myfastapiapp .
+
+run:
+	docker run -p 8080:8080 myfastapiapp
+
+deploy: build run
+
 all: install lint test format deploy
