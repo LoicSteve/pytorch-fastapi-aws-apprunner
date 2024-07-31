@@ -1,1 +1,1 @@
-# pytyorch-fastapi-aws-apprunner
+# pytorch-fastapi-aws-apprunner
