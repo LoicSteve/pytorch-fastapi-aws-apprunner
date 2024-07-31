@@ -8,5 +8,6 @@ pylint
 fastapi
 uvicorn
 Pillow
-torchvision==0.17.0
+torchvision
+torch
 python-multipart
