@@ -7,7 +7,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/universal:2-focal
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 RUN apt-get update && apt-get -y install --no-install-recommends \
    ffmpeg \ 
-   python3.8-venv \
+   python3.11-venv \
    gcc 
    
 ARG USER="codespace"
